@@ -1,3 +1,4 @@
+
 @import "bootstrap";
 
 .clear {
@@ -44,6 +45,7 @@ clear: both;
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'chunkfiveroman';
 }
 
 header {
@@ -56,3 +58,19 @@ header {
 hr {
   clear:both;
 }
+
+h1 {
+  font-family: 'chunkfiveroman', sans-serif;
+  font-size: 48px;
+}
+
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;  
+}
+
+
+
+
+
