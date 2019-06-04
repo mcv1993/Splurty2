@@ -30,7 +30,7 @@
 
           <div class="col col-sm-4 hidden-xs-down slogan">
 
-              Splurting out unsolicited advice about entrepreneurship since 1993
+              Splurting out unsolicited advice since 1993
           </div>
 
           <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
@@ -52,27 +52,24 @@
                 </button>
                  <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
 
-
-
             <%= simple_form_for Quote.new do |f| %>
               <div class="modal-body">
                 <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "Fear is the disease.  Hustle is the antidote." %>
                 <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Travis Kalanick" %>
+                <%= f.input :source, label: "Source?", placeholder:"Great Granny's Step-Sister's Uncle" %>
               </div>
               <div class="modal-footer">
-                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <%= f.submit 'Create', class: 'btn btn-danger' %>
-            </div>
-
+                          </div>
             </div>
           </div>
         </div>
-      </div>  
+      </div>
+
          
-      <% end %>
-                    <br />
-          </div>
-          </div>
+            <% end %>
+      <br />
 
       <hr />
 
@@ -99,7 +96,7 @@
                 Proudly hacked by <a href="[YOUR_PORTFOLIO_URL]">[mcv]<a/><br />
                 Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
               </div>
-              <p class="text-muted">Place sticky footer content here.</p>
+              <p class="text-muted">Take advice at your own risk.</p>
           </div>
         </div>
       </div> 
